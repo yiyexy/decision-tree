@@ -105,7 +105,6 @@ class Decision_tree:
             if min_ent > split_ent:
                 best_feat = i
                 min_ent = split_ent
-
         return best_feat
 
     def compute_split_entropy(self,left_y,right_y):
